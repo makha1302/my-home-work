@@ -1,0 +1,157 @@
+.BG {
+    background-color: #707a7e;
+    width: 100%;
+    height: 100vh;
+    font-size: 24px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.top1 {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    height: 50vh;
+}
+
+.qt {
+    border:1px solid #000000;
+    display: grid;
+    background-color: #9ba8ae;
+}
+
+.qt1 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+}
+
+button{
+    font-family: 'Noto Sans Thai', sans-serif;
+    height: auto;
+ }
+
+.bt{
+    border-radius: 25px;
+    height: 40px;
+    width: 100%;
+    transition: 0.5s;
+}
+
+.bt:hover {
+    background-color: #495054;
+    color: #e3e8ea;
+    transition: 0.5s;
+}
+
+
+.bdr{
+    border-radius: 100px;
+    padding: 2px;
+}
+
+.pb {
+    padding: 5px;
+ }
+
+
+
+ .grob {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+ }
+
+ .ingrob {
+    display: grid;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+ }
+
+ .ingrob1 {
+    border: 2px solid #000000;
+    background-color: #9ba8ae;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .dpg {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+ }
+
+ .dpg1 {
+    display: grid;
+    grid-template-rows: auto auto auto auto auto auto;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+ }
+
+
+ @media screen and (max-width: 600px) {
+    .BG {
+      width: 100%;
+    }
+
+    .qt {
+        height: 80%;
+        width: 100%;
+    }
+
+    .qt1 {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+  }
+ 
+ 
+ 
+  @media screen and (max-width: 900px) {
+    .BG {
+      width: 100%;
+    }
+
+    .qt {
+        height: 80%;
+        width: 100%;
+    }
+
+    .qt1 {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .ingrob1 {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    
+  }
+
+
+ 
